@@ -1,2 +1,2 @@
-# disney-reservation-checker
-Checks for certain reservations at Disneyworld's Roundup Rodeo and Crystal Palace restaurants for my sister and brother-in-law's upcoming trip
+# Disney Reservation Checker
+Checks for certain reservations at Disneyworld's Roundup Rodeo and Crystal Palace restaurants for my sister and brother-in-law's upcoming trip. In previous years, they knew that reservations go very quickly for summertime trips so you have to reserve a time as soon as it is available. It uses the api call that the backend of Disney's site uses to get restaurant availabilities for the frontend and interprets the response itself and sends texts via Twilio if reservations are available. They were only looking for the times available on May 10th, 2023.
